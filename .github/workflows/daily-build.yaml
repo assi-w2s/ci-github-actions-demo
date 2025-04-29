@@ -2,8 +2,8 @@ name: Daily Scheduled Build
 
 on:
   schedule:
-#    - cron: '0 0 * * *'  # Midnight UTC
-    - cron: '*/5 * * * *'  # Every 5 minutes (for testing purposes)
+    - cron: '0 0 * * *'  # Midnight UTC
+#    - cron: '*/5 * * * *'  # Every 5 minutes (for testing purposes)
 
 jobs:
   scheduled-job:
